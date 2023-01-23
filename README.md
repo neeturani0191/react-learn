@@ -51,13 +51,21 @@ By including CDN Links for REACT and REACT_DOM, we get access to REACT GLOBAL VA
 REACT-DOM : specific for web
 
 ### **Why is React known as React?**
-_Since Reactive updates are quite easy to utilise and dead simple!_
+If rule No.1 in software development is simplicity and avoiding complexity at all costs, then React JS DEAD simple!
 
-In Vanilla JS, we must examine what data has changed and apply modifications to the DOM as soon as possible to keep it up to current.
-React has a unique approach. The render method is invoked whenever a component is initialised, and it generates a lightweight representation of what the DOM should look like. This representation's markup is injected into the document.
-The render method is invoked every time the data changes.
+One of the top benefits of React is how easy it is to grasp, particularly if you already are a pro at JavaScript. You can install React and be up and running in a few hours, getting straight to work building web applications. 
 
-The virtual DOM (VDOM) is a programming concept in which an ideal, or "virtual," version of a user interface (UI) is stored in memory and synchronised with the "actual" DOM via a library such as ReactDOM. This is known as reconciliation.
+React JS makes front-end development a piece of cake for developers. It allows developers to declaratively describe user interfaces, taking a lot of the heavy lifting out of the coding process while making the code more simple to read and understand. It makes interactive UIs by changing the state of the component and updating the DOM virtually.
+You can rely on the React library to get the job done.
+On top of that, React JS has (at the time of writing) 218009 packages available on NPM, a subsidiary of GitHub.
+
+Reusable Components: A stand-out benefit of React is its ability to reuse code throughout an application. It’s the React ‘get out of jail free card’ as you escape being a prisoner to hours of tedious and repetitive coding tasks. Hence- React helps you work smarter, not harder.
+
+React renders the DOM (Document Object Model) virtually first as a copy of the actual DOM. React will only make the changes necessary changes to the UIs through the virtual DOM. Consequently, an application doesn’t have to re-render the entire User Interface and speeds up loading times. 
+This has a massive impact on SEO
+
+React is Easy to Scale: First, React apps happily scale to hundreds or even thousands of components, without breaking a sweat.
+Second, React is built to be extremely versatile to easily integrate with other third-party libraries and frameworks in your tech stack.
 
 ### **What is crossorigin in script tag?**
 
