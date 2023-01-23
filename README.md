@@ -49,3 +49,38 @@ A properly configured CDN may also help protect websites against some common mal
 By including CDN Links for REACT and REACT_DOM, we get access to REACT GLOBAL VARIABLE
 
 REACT-DOM : specific for web
+
+### **Why is React known as React?**
+_Since Reactive updates are quite easy to utilise and dead simple!_
+
+In Vanilla JS, we must examine what data has changed and apply modifications to the DOM as soon as possible to keep it up to current.
+React has a unique approach. The render method is invoked whenever a component is initialised, and it generates a lightweight representation of what the DOM should look like. This representation's markup is injected into the document.
+The render method is invoked every time the data changes.
+
+The virtual DOM (VDOM) is a programming concept in which an ideal, or "virtual," version of a user interface (UI) is stored in memory and synchronised with the "actual" DOM via a library such as ReactDOM. This is known as reconciliation.
+
+### **What is crossorigin in script tag?**
+
+The crossorigin attribute changes the mode of the request to HTTP CORS Request.
+A cross-origin request is a request for a resource from another domain (for example, style sheets, iframes, pictures, fonts, or scripts).
+CORS is a protocol for managing cross-origin requests.
+CORS, which stands for Cross-Origin Resource Sharing, is a method that allows resources on a web page to be requested from a domain other than their own. It specifies how a browser and server might communicate to decide if it is safe to authorise a cross-origin request. CORS allows servers to determine who can access the server's assets, among other things.
+
+### **What is diference between React and ReactDOM**
+
+React => a global variable used to construct UI, such as 'React.createElement()'
+
+ReactDOM => is used to render components in the browser by injecting them into the root of the DOM, `root.render()`
+
+### **What is difference between react.development.js and react.production.js files via CDN?**
+
+react.development.js => only for development purposes not suitable for production
+
+react.production.js => React production versions that have been minified and optimised
+
+---
+### **What is async and defer? - 
+
+**To return a promise, we utilise async.
+To wait and manage a promise, we utilise await.
+
